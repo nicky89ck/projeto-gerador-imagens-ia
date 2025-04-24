@@ -1,0 +1,19 @@
+form {
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  /* Telas menores */
+  @media (max-width: 768px) {
+    form {
+      width: 90%;
+    }
+  
+    input, textarea {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }

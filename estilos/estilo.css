@@ -1,0 +1,128 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center; /*Centraliza*/
+    padding: 10px 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Remove os pontinhos da lista e tira o espaço interno (o padding) */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+/* Coloca os itens da lista (os <li>) lado a lado em vez de em coluna */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Estiliza os links do menu */
+nav ul li a {
+    color: #333;
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px; /* para limitar o tamanho do form em telas grandes */
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical; /* permite redimensionar para baixo se quiser a caixa de msg */
+    min-height: 120px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*card ensinado em sala de aula */
+.card {
+    width: 200px;
+    padding: 10px;
+    margin: 50px auto; /* Centraliza na tela */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.card img {
+    
+    width: 80%;
+    height: 80%;
+}
+
+.img-descricao {
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin: 15px 0;
+}
+
