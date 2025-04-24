@@ -1,4 +1,4 @@
-Projeto Gerador de Imagens com IA
+Projeto Gerador de Imagens com IA - 
 Este repositório faz parte do projeto desenvolvido na disciplina Introdução à Programação, cursada no 1º período da graduação na Cesar School.
 
 ✨ Objetivo
